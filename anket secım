@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anket Seçimi</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            margin-top: 100px; 
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        a { 
+            display: block; 
+            margin: 20px auto; 
+            padding: 15px; 
+            width: 250px; 
+            font-size: 24px; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold;
+        }
+        .en { 
+            background-color: #007BFF; 
+        }
+        .tr { 
+            background-color: #28A745; 
+        }
+        a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lütfen Dil Seçiniz</h1>
+    <a href="https://forms.office.com/r/pPPsaegU3n" class="tr">🇹🇷 Türkçe Anket</a>
+    <a href="https://forms.office.com/r/1g7NWa8tdW" class="en">🇬🇧 English Survey</a>
+</body>
+</html>
